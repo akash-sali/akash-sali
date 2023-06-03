@@ -1,0 +1,88 @@
+/*navogation and logo*/
+#logo img {
+    height: 40px;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 13px;
+    padding: 0px 20px;
+}
+#navbar::before{
+    width: 100vw;
+}
+/*Home section*/
+#home{
+height: 354px;
+padding: 61px 69px;
+
+}
+#home::before{
+    height: 400px;
+    
+}
+#home p{
+    font-size:13px ;
+    color:blue;
+}
+#home h1{
+    color:rgb(48, 167, 24);
+
+}
+/*services section*/
+
+#Services{
+    flex-direction: column;
+}
+#Services .box img{
+    height: 100px;
+   
+}
+#Services .box{
+    padding:6px;
+}
+/*client section*/
+#client{
+    overflow: hidden;
+}
+#client img{
+    height: 50px;
+    margin: 0px -29px;
+} 
+
+/*contact sectiom*/
+#contact-box label {
+    font-size: 1.2rem;
+}
+#contact-box input {
+    width: 200px;
+    padding: 0.4rem;
+    border-radius: 9px;
+}
+#contact-box {
+    padding-top: 20px;
+    padding-bottom: 34px;
+}
+/*footer*/
+
+/*utility*/
+.h-pripary{
+  font-size:20px;
+}
+.third {
+    padding-top:10px;
+}
+.forth {
+    padding-top:10px;
+    font-size: 1.5rem;
+}
+.center{
+    
+    font-size: 1rem;
+}
+.btn{
+    padding: 4px 15px;
+    font-size: 10px;
+    color: white;
+}

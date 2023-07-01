@@ -11,7 +11,7 @@
 // 
 // echo akash;
 
-define("name","akash");
+define("name","akashdd");
 
 echo name;
 ?>
